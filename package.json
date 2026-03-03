@@ -11,7 +11,9 @@
     "@playwright/test": "^1.58.0",
     "@types/node": "^25.0.10"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test e2e/Web_API_Part1.spec.js --headed"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

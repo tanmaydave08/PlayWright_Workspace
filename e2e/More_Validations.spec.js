@@ -8,7 +8,7 @@ test("Popup test", async ({page})=>
     //Page navigation
     //await page.goBack();
     //await page.goForward();
-    //Visible- Hidden aatributes and assertions
+    //Visible- Hidden attributes and assertions
     await expect (page.locator("#displayed-text")).toBeVisible();
     await page.locator("#hide-textbox").click();
     await expect (page.locator("#displayed-text")).toBeHidden();
